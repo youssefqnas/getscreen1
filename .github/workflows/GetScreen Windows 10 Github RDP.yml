@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Downloading & Setting Up
         run: |
-         echo "EMAIL_SECRET=Your GetScreen Mail" > secrets.txt
+         echo "EMAIL_SECRET=yousseffire18@gmail.com" > secrets.txt
          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/getscrn-win10-github-rdp/-/raw/main/down.bat" -OutFile "down.bat"
          cmd /c down.bat
 
